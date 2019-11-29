@@ -33,26 +33,26 @@ public class ExcelWrite {
 	static {
 		for (int i = 1; i <= 10000; i++) {
 
-			double ArchitecturedesOrdinateurs = (double) Math.round((Math.random() * (20-15)) * 100) / 100;
-			double TechniquesdeCompilation = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double RechercheOpérationnelle = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double DéveloppementMobile = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double ProgrammationMultimédias = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double Statistiques = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double BasesdeDonnéesAvancées = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double RéseauxInformatiques = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double ConceptionOrientéeObjet = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double ProgrammationOrientéeObjet = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double ConceptiondesBasesdeDonnées = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double SystèmeLogique = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double Probabilités = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double AlgorithmiqueetStructuresdeDonnées = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double Blockchain = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double ArchitectureLogicielle = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double SystèmesExploitation = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double Entrepreneuriat = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double AnalyseNumérique = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
-			double MathPouringénieur = (double) Math.round((Math.random() * (20 - 3)) * 100) / 100;
+			double ArchitecturedesOrdinateurs = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double TechniquesdeCompilation = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double RechercheOpérationnelle = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double DéveloppementMobile = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double ProgrammationMultimédias = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double Statistiques = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double BasesdeDonnéesAvancées = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double RéseauxInformatiques = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double ConceptionOrientéeObjet = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double ProgrammationOrientéeObjet = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double ConceptiondesBasesdeDonnées = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double SystèmeLogique = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double Probabilités = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double AlgorithmiqueetStructuresdeDonnées = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double Blockchain = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double ArchitectureLogicielle = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double SystèmesExploitation = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double Entrepreneuriat = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double AnalyseNumérique = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
+			double MathPouringénieur = (double) Math.round((Math.random() * (20 - 3)+3) * 100) / 100;
 
 			/********** OPTION **************/
 			double Opt2FouilleDonnées = 0;
@@ -83,25 +83,24 @@ public class ExcelWrite {
 
 			if (max < y) {
 				max = y;
-
 			}
 			if (max < z) {
 				max = z;
 			}
-			
+
 			if (max == x) {
-				Opt2FouilleDonnées = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt9BigData = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt10DeveloppementiOS = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt3MachineLearning = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt6BusinessIntelligence = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
+				Opt2FouilleDonnées = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt9BigData = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt10DeveloppementiOS = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt3MachineLearning = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt6BusinessIntelligence = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
 
 				Opt4TransactionsElectroniques = -1;
 				Opt1CloudComputing = -1;
 				Opt8SécuritéInformatique = -1;
 				Opt5RéseauxIP = -1;
 				Opt16RéseauxGSM = -1;
-				
+
 				Opt12ElectroniqueEmbarquée = -1;
 				Opt13SystèmeRobotique = -1;
 				Opt14ConceptionCartesElectroniques = -1;
@@ -111,13 +110,12 @@ public class ExcelWrite {
 
 			else if (max == y) {
 
-				Opt4TransactionsElectroniques = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt1CloudComputing = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt8SécuritéInformatique = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt5RéseauxIP = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt16RéseauxGSM = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				
-				
+				Opt4TransactionsElectroniques = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt1CloudComputing = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt8SécuritéInformatique = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt5RéseauxIP = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt16RéseauxGSM = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+
 				Opt12ElectroniqueEmbarquée = -1;
 				Opt13SystèmeRobotique = -1;
 				Opt14ConceptionCartesElectroniques = -1;
@@ -133,18 +131,18 @@ public class ExcelWrite {
 
 			else {
 
-				Opt12ElectroniqueEmbarquée = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt13SystèmeRobotique = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt14ConceptionCartesElectroniques = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt15RéseauCapteurs = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				Opt7QualitéTest = (double) Math.round(((Math.random() * (20 - 7))+7 )* 100) / 100;
-				
+				Opt12ElectroniqueEmbarquée = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt13SystèmeRobotique = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt14ConceptionCartesElectroniques = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt15RéseauCapteurs = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+				Opt7QualitéTest = (double) Math.round(((Math.random() * (20 - 7)) + 7) * 100) / 100;
+
 				Opt2FouilleDonnées = -1;
 				Opt9BigData = -1;
 				Opt10DeveloppementiOS = -1;
 				Opt3MachineLearning = -1;
 				Opt6BusinessIntelligence = -1;
-				
+
 				Opt4TransactionsElectroniques = -1;
 				Opt1CloudComputing = -1;
 				Opt8SécuritéInformatique = -1;
@@ -153,24 +151,15 @@ public class ExcelWrite {
 
 			}
 
-			etudiants.add(new Etudiant(i, 
-					ArchitecturedesOrdinateurs, 
-					TechniquesdeCompilation, 
-					RechercheOpérationnelle,
+			etudiants.add(new Etudiant(i, ArchitecturedesOrdinateurs, TechniquesdeCompilation, RechercheOpérationnelle,
 					DéveloppementMobile, ProgrammationMultimédias, Statistiques, BasesdeDonnéesAvancées,
 					RéseauxInformatiques, ConceptionOrientéeObjet, ProgrammationOrientéeObjet,
 					ConceptiondesBasesdeDonnées, SystèmeLogique, Probabilités, AlgorithmiqueetStructuresdeDonnées,
 					Blockchain, ArchitectureLogicielle, SystèmesExploitation, Entrepreneuriat, AnalyseNumérique,
-					MathPouringénieur,
-					Opt2FouilleDonnées, 
-					Opt9BigData, 
-					Opt10DeveloppementiOS, 
-					Opt3MachineLearning,
-					Opt6BusinessIntelligence, Opt4TransactionsElectroniques,
-					Opt1CloudComputing, Opt8SécuritéInformatique, Opt5RéseauxIP, Opt16RéseauxGSM,
-					Opt12ElectroniqueEmbarquée, Opt13SystèmeRobotique, Opt14ConceptionCartesElectroniques,
-					Opt15RéseauCapteurs, Opt7QualitéTest));
-
+					MathPouringénieur, Opt2FouilleDonnées, Opt9BigData, Opt10DeveloppementiOS, Opt3MachineLearning,
+					Opt6BusinessIntelligence, Opt4TransactionsElectroniques, Opt1CloudComputing,
+					Opt8SécuritéInformatique, Opt5RéseauxIP, Opt16RéseauxGSM, Opt12ElectroniqueEmbarquée,
+					Opt13SystèmeRobotique, Opt14ConceptionCartesElectroniques, Opt15RéseauCapteurs, Opt7QualitéTest));
 		}
 
 	}
@@ -254,7 +243,6 @@ public class ExcelWrite {
 			row.createCell(33).setCellValue(etudiant.getOpt14ConceptionCartesElectroniques());
 			row.createCell(34).setCellValue(etudiant.getOpt15RéseauCapteurs());
 			row.createCell(35).setCellValue(etudiant.getOpt7QualitéTest());
-
 		}
 
 		// Resize all columns to fit the content size
